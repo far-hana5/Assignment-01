@@ -5,9 +5,7 @@ body{
 *{
     margin: 0;padding: 0;
 }
-#main-full{
-    
-}
+
 #hero{
     height: 900px;
     background-image: url("../assets/Hero-bg.png");
@@ -54,4 +52,74 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;padding: 27px 55px;
 }
+/*end*/
+#section-2{
+    margin: 130px 90px 0px 90px;
+    padding: 0 40px;
+    border-radius: 16px;
 
+background: rgba(13, 19, 33, 0.02);
+}
+#section-2 .section-2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+#section-2 .section-2-content h1{
+   padding-bottom: 20px;
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#section-2 .section-2-content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.s2contant-image{
+    display: flex;
+    justify-content: space-around;
+   padding-bottom: 100px;
+}
+.s2contant-image .leftcontant h2{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 30px;
+}
+.s2contant-image .leftcontant p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;opacity: 0.7; padding-bottom: 30px;
+}
+.s2contant-image .leftcontant button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px 60px;
+}
