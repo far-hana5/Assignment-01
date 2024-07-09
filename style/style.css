@@ -5,6 +5,9 @@ body{
 *{
     margin: 0;padding: 0;
 }
+#main-full{
+    
+}
 #hero{
     height: 900px;
     background-image: url("../assets/Hero-bg.png");
