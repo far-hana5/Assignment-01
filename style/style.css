@@ -332,3 +332,13 @@ position: absolute;bottom: 10px;right: 10px;display: flex;gap: 10px;
 }
 .footer-icons img{
     width: 30px;height: auto;border: none;}
+
+.footer-content h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
