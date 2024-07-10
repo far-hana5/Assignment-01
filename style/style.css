@@ -184,7 +184,8 @@ background: rgba(13, 19, 33, 0.02);
 /* end current terget*/
 .card{
     display: flex;justify-content: space-between;
-margin-left: 250px;
+margin-left: 180px;
+max-width: 1200px;
 }
 .card1{
     border-radius: 16px;
@@ -194,8 +195,8 @@ margin-left: 250px;
     /* Frame 10 */
  .card-style{
     position: static;
-width: 364px;
-height: 300px;
+width: 280px;
+height: 240px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -223,3 +224,110 @@ background: rgba(0, 76, 232, 0.05);
 .a-color{
     color: #000;
 }
+/*end of card*/
+.support-section{
+   background-image: url("../assets/handshake.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: white;
+    width: 1000px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left: 400px;
+    margin-top: 80px;
+   padding-top:150px ;
+}
+.support-section h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.support-section p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.support-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support-section input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.support-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.support-section button:hover {
+    background-color: #0056b3;
+}
+
+
+.support-section h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.support-section p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.support-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support-section input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#er{
+   
+margin: 0px 90px 110px 90px;
+        
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+height: 500px;
+}
+/*end of support section*/
+#footer{
+border-radius: 16px;
+margin: 130px 90px 0px 90px;
+max-height: 200px;
+background: rgba(13, 19, 33, 0.03);
+display: flex;position: relative;
+
+}
+
+.footer-content{
+    align-items: start;
+}
+.footer-icons{
+position: absolute;bottom: 10px;right: 10px;display: flex;gap: 10px;
+}
+.footer-icons a{
+    display: block;
+}
+.footer-icons img{
+    width: 30px;height: auto;border: none;}
