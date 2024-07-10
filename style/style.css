@@ -6,7 +6,9 @@ body{
 *{
     margin: 0;padding: 0;
 }
-
+.button-class {
+    cursor: pointer;
+}
 #hero{
     height: 900px;
     background-image: url("../assets/Hero-bg.png");
